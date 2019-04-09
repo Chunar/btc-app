@@ -8,7 +8,6 @@ class AlertText extends Component {
         right: '55%',
         top: '20%',
         bottom: '75%',
-
         font: 'SourceSansPro',
         fontSize: 14,
         color: '#FFFFFF',
