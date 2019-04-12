@@ -1,16 +1,13 @@
 import React, { Component } from 'react';
-import './App.css';
-import Hero from "./components/hero";
+import {Hero} from "./components/hero";
+import { Features } from './components/features';
 
-class App extends Component {
+export class App extends Component {
 
   render() {
     return (
-      <div style={{width:1440, height: 2836}}>
-        <Hero />
-      </div>
-    );
+    <div style={{height: 2836}}>
+      <Hero />
+    </div>);
   }
 }
-
-export default App;
